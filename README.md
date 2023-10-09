@@ -1,3 +1,24 @@
+Application with Admin-Panel / Dashboard 
+
+SKILLS: HTML, CSS, Bootsrap, Javascript, jQuery, Ajax, PHP/Laravel. Mysql db
+
+Within this app i have:
+- Login / register / Logout with Auth 
+- Middlewares
+- Custom Request
+- Seeders, i have AdminSeeder for creating default admin user and RolesSeeder for user roles
+- controllers
+- models
+- relation to roles table using ORM eloquent
+  
+ ** permission for editing, update, changing password only have default user admin**
+ ** additionally forgotten page - if the user forgotten password 
+
+- dashboard page (main page),
+- Profile page - where only if the user has role as admin, then he can edit personal informations for the user as Name, Email and favoritecolor, and he can change the password of him account
+- Settings page
+  
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

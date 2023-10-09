@@ -1,13 +1,13 @@
 Application with Admin-Panel / Dashboard 
 
-SKILLS: HTML, CSS, Bootsrap, Javascript, jQuery, Ajax, PHP/Laravel. Mysql db
+SKILLS: HTML, CSS, Bootsrap, Javascript, jQuery, Ajax, JSON, PHP/Laravel. Mysql db
 
 Within this app i have:
 - Login / register / Logout with Auth 
 - Middlewares
 - Custom Request
 - Seeders, i have AdminSeeder for creating default admin user and RolesSeeder for user roles
-- controllers
+- controllers with Json response
 - models
 - relation to roles table using ORM eloquent
 - search input 

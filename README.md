@@ -10,11 +10,15 @@ Within this app i have:
 - controllers
 - models
 - relation to roles table using ORM eloquent
+- search input 
   
- ** permission for editing, update, changing password only have default user admin**
- ** additionally forgotten page - if the user forgotten password 
+- after user registration, immediately if the user name is for example Kristijan, the first letter will be K and that will be the new image stored in the public/images/ folder  ... with the first character of his name and that will be image for that user on the dashboard page .
+  
+ - permission for editing, update, changing password only have default user admin**
+ -  admin user can change the picture, and set the new pictures from their pc
+-  additionally forgotten page - if the user forgotten password 
 
-- dashboard page (main page),
+- dashboard page (main page) - 
 - Profile page - where only if the user has role as admin, then he can edit personal informations for the user as Name, Email and favoritecolor, and he can change the password of him account
 - Settings page
   
